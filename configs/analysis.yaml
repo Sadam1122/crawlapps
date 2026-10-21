@@ -1,0 +1,13 @@
+min_posts: 10
+min_availability: 0.8
+min_brands: 3
+relevance_threshold: 0.8
+composite_enabled: false
+weights:
+  efficiency: 0.35
+  exposure: 0.25
+  conversation: 0.25
+  consistency: 0.15
+age_tolerance_hours: 12
+allocation: fractional
+exploratory_gates: true

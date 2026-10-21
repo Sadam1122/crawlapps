@@ -1,0 +1,11 @@
+# Codebook dan review manusia
+
+Label baseline selalu **preliminary/unvalidated** sampai review yang nyata tersedia. Codebook `analytics/content.py`: edukasi, tutorial, promo, product launch, trust/security, testimonial, KOL, lifestyle, goal-based saving, harga emas, cetak fisik, cicilan, perbandingan harga, FAQ, layanan/keluhan. Hook/CTA/campaign/disclosure dapat diimpor; rule baseline tidak menyimpulkan audience, KOL atau ketentuan promo yang tidak eksplisit.
+
+Review target awal 100 komentar jika cukup, strata platform/brand/kelas yang tersedia. `processed/review_sample.json` menghasilkan item dan kolom reviewer kosong; jika dataset lebih kecil laporkan jumlah aktual. Jangan mengisi label gold dari output model lalu mengklaim validasi. Hasil review dapat disimpan lewat `Store.put('analyst_reviews', id, data, run_id)` pada workflow analisis lokal; utility `analytics.review.review_agreement(rows)` menerima reviewer_a_label/reviewer_b_label dan menghitung observed agreement, Cohen kappa dan confusion hanya untuk pasangan terisi. UI input review/CLI import reviewer belum disediakan.
+
+Sentimen terhadap **aspek produk/brand emas**: positive, negative, neutral, mixed, unclear. Pisahkan speech_type: question, complaint, experience, promotion, speculation, allegation, impersonation_warning. Baseline hanya mengisi sebagian kelas secara sederhana; reviewer mengoreksi. Harga emas turun = konteks harga, bukan otomatis brand negatif. Penipuan mengatasnamakan = impersonation, bukan bukti kesalahan perusahaan.
+
+Severity manusia: (1) informasi/pertanyaan tanpa dampak terlapor; (2) hambatan transaksi/layanan yang disebut; (3) potensi dampak material yang dinyatakan dan bukti sumber; (4) kejadian meluas/terverifikasi oleh sumber primer. Selalu catat bukti, rentang tanggal, penyebaran teramati dan uncertainty. Jangan menyebut fraud/bot/palsu tanpa bukti memadai; anomali engagement hanya possible_anomaly.
+
+Catat disagreement per brand/platform/aspek/kelas, false positive kata ambigu dan seleksi komentar. Agreement tidak sama dengan akurasi internet; akurasi hanya jika ada gold set independen. Kutipan singkat, source link, pseudonim ID; jangan mengekspor profil pribadi, nomor telepon, email atau NIK. Tidak ada pengiriman data ke LLM pada pipeline ini.

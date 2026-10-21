@@ -1,0 +1,1110 @@
+seed_universe_not_exhaustive: true
+checked_at: '2026-10-21'
+mandiri_active_since_utc: null
+competitors:
+- entity_id: mandiri
+  legal_name: PT Bank Mandiri (Persero) Tbk
+  brand_id: mandiri
+  brand_name: Mandiri
+  product_id: mandiri-tabungan-emas
+  product_name: Tabungan Emas / Livin' Emas
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: &id001
+  - benchmark
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: &id002
+  - www.bankmandiri.co.id
+  verified_social_accounts: &id003 []
+  aliases: &id004
+  - mandiri
+  - livin
+  - livin' emas
+  gold_product_keywords: &id005
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords: &id006
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources: &id007
+  - url: https://www.bankmandiri.co.id/livin/emas
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: pegadaian
+  legal_name: PT Pegadaian
+  brand_id: pegadaian
+  brand_name: Pegadaian
+  product_id: pegadaian-tabungan-emas
+  product_name: Tabungan Emas / Tring!
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: &id008
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: &id009
+  - pegadaian.co.id
+  verified_social_accounts: &id010 []
+  aliases: &id011
+  - pegadaian
+  - tring
+  gold_product_keywords: &id012
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords: &id013
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources: &id014
+  - url: https://pegadaian.co.id/emas/tabungan-emas
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: bsi
+  legal_name: PT Bank Syariah Indonesia (Persero) Tbk
+  brand_id: bsi
+  brand_name: BSI
+  product_id: bsi-emas
+  product_name: BSI Emas / BYOND
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: &id015
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: &id016
+  - www.bankbsi.co.id
+  verified_social_accounts: &id017 []
+  aliases: &id018
+  - bsi
+  - byond
+  gold_product_keywords: &id019
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords: &id020
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources: &id021
+  - url: https://www.bankbsi.co.id/produk%26layanan/produk/layanan-bank-emas
+    checked_at: '2026-10-21'
+    status: legal_name_latest_pending_verification
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://ir.bankbsi.co.id/misc/AR/AR2025-ID/72/
+    checked_at: '2026-10-21'
+    status: primary_report_name_checked
+    claim_scope: Current report masthead only; legal effective date not inferred
+  - url: https://ir.bankbsi.co.id/misc/AR/AR2025-ID/72/
+    checked_at: '2026-10-21'
+    status: primary_report_name_checked
+    claim_scope: Current report masthead only; legal effective date not inferred
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: primary_report_name_checked
+- entity_id: antam
+  legal_name: PT Aneka Tambang Tbk
+  brand_id: antam
+  brand_name: ANTAM Logam Mulia
+  product_id: antam-brankas
+  product_name: BRANKAS
+  segment: direct
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: &id022
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: &id023
+  - logammulia.com
+  verified_social_accounts: &id024 []
+  aliases: &id025
+  - antam
+  - brankas
+  - logam mulia
+  gold_product_keywords: &id026
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords: &id027
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources: &id028
+  - url: https://logammulia.com/id/brankas
+    checked_at: '2026-10-21'
+    status: permission_blocked_403
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: permission_blocked_403
+- entity_id: treasury
+  legal_name: PT Indonesia Logam Pratama
+  brand_id: treasury
+  brand_name: Treasury
+  product_id: treasury-emas
+  product_name: Treasury Emas
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - www.treasury.id
+  verified_social_accounts: []
+  aliases:
+  - treasury
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.treasury.id/
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: legal_name_exchange_directory_checked_activity_separate
+- entity_id: pluang
+  legal_name: PT Pluang Emas Sejahtera
+  brand_id: pluang
+  brand_name: Pluang
+  product_id: pluang-emas
+  product_name: Emas Pluang
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - pluang.com
+  verified_social_accounts: []
+  aliases:
+  - pluang
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://pluang.com/faq/gold/gold-product/apa-itu-emas-pluang
+    checked_at: '2026-10-21'
+    status: self_reported
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: self_reported
+- entity_id: indogold
+  legal_name: PT Indogold Makmur Sejahtera
+  brand_id: indogold
+  brand_name: IndoGold
+  product_id: indogold-emas
+  product_name: IndoGold Emas
+  segment: direct
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - www.indogold.id
+  verified_social_accounts: []
+  aliases:
+  - indogold
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.indogold.id/member/registration
+    checked_at: '2026-10-21'
+    status: registration_page_insufficient_for_activity
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: legal_name_exchange_directory_checked_activity_separate
+- entity_id: lakuemas
+  legal_name: PT Laku Emas Indonesia
+  brand_id: lakuemas
+  brand_name: Lakuemas
+  product_id: lakuemas-emas
+  product_name: Lakuemas
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - lakuemas.com
+  verified_social_accounts: []
+  aliases:
+  - lakuemas
+  - laku emas
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://lakuemas.com/
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: legal_name_exchange_directory_checked_activity_separate
+- entity_id: shariacoin
+  legal_name: PT Syariah Koin Indonesia
+  brand_id: shariacoin
+  brand_name: ShariaCoin
+  product_id: shariacoin-emas
+  product_name: Tabungan Emas ShariaCoin
+  segment: direct
+  priority: 1
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - www.shariacoin.co.id
+  verified_social_accounts: []
+  aliases:
+  - shariacoin
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.shariacoin.co.id/
+    checked_at: '2026-10-21'
+    status: self_reported
+    claim_scope: product page activity only; not independent regulatory verification
+  - url: https://www.icdx.co.id/membership/members-of-icdx?category=digital-gold-trader
+    checked_at: '2026-10-21'
+    status: exchange_membership_verified
+    claim_scope: Listed member of exchange; not a fresh Bappebti operating-license
+      determination
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: self_reported
+- entity_id: quantum
+  legal_name: PT Quantum Metal Indonesia
+  brand_id: quantum
+  brand_name: Quantum Metal Indonesia
+  product_id: quantum-emas
+  product_name: Quantum Metal Emas
+  segment: direct
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - competitor
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - quantummetal.id
+  verified_social_accounts: []
+  aliases:
+  - quantum metal
+  - quantummetal
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://quantummetal.id/tentang-kami/
+    checked_at: '2026-10-21'
+    status: current_operation_and_license_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: current_operation_and_license_pending
+- entity_id: ubs
+  legal_name: PT Untung Bersama Sejahtera
+  brand_id: ubs
+  brand_name: UBS Gold
+  product_id: ubs-fisik
+  product_name: UBS Gold
+  segment: physical
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - physical
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - ubsgold.com
+  verified_social_accounts: []
+  aliases:
+  - ubs gold
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://ubsgold.com/
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: galeri24
+  legal_name: null
+  brand_id: galeri24
+  brand_name: Galeri 24
+  product_id: galeri24-fisik
+  product_name: Galeri 24 Emas
+  segment: physical
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - physical
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - galeri24.co.id
+  verified_social_accounts: []
+  aliases:
+  - galeri 24
+  - galeri24
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://galeri24.co.id/
+    checked_at: '2026-10-21'
+    status: legal_name_pending_verification
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: legal_name_pending_verification
+- entity_id: hartadinata
+  legal_name: PT Hartadinata Abadi Tbk
+  brand_id: hartadinata
+  brand_name: HRTA Gold / EMASKU
+  product_id: hartadinata-emasku
+  product_name: EMASKU
+  segment: physical
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - physical
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - hartadinataabadi.co.id
+  verified_social_accounts: []
+  aliases:
+  - hartadinata
+  - hrta gold
+  - emasku
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://hartadinataabadi.co.id/
+    checked_at: '2026-10-21'
+    status: self_reported
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: self_reported
+- entity_id: lotus
+  legal_name: null
+  brand_id: lotus
+  brand_name: Lotus Archi
+  product_id: lotus-fisik
+  product_name: Lotus Archi Emas
+  segment: physical
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - physical
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - lotusarchi.com
+  verified_social_accounts: []
+  aliases:
+  - lotus archi
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://lotusarchi.com/
+    checked_at: '2026-10-21'
+    status: legal_name_pending_verification
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: legal_name_pending_verification
+- entity_id: kinghalim
+  legal_name: null
+  brand_id: kinghalim
+  brand_name: King Halim
+  product_id: kinghalim-fisik
+  product_name: King Halim Emas
+  segment: physical
+  priority: 2
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - physical
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - kinghalim.com
+  verified_social_accounts: []
+  aliases:
+  - king halim
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://kinghalim.com/
+    checked_at: '2026-10-21'
+    status: discovery_only_requires_origin_review
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: physical_jewellery_page_checked_legal_name_pending
+- entity_id: dana
+  legal_name: null
+  brand_id: dana
+  brand_name: DANA
+  product_id: dana-emas
+  product_name: DANA eMAS
+  segment: distribution
+  priority: 2
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - distribution
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - www.dana.id
+  verified_social_accounts: []
+  aliases:
+  - dana emas
+  - dana emas digital
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.dana.id/help-center/keuangan-DANA/apa-saja-kelebihan-fitur-e-mas?lng=id
+    checked_at: '2026-10-21'
+    status: provider_per_variant_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: provider_per_variant_pending
+- entity_id: gopay
+  legal_name: null
+  brand_id: gopay
+  brand_name: GoPay
+  product_id: gopay-emas
+  product_name: GoPay Emas Digital
+  segment: distribution
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - distribution
+  parent_group_id: null
+  provider_entity_id: treasury
+  official_domains:
+  - www.treasury.id
+  verified_social_accounts: []
+  aliases:
+  - gopay emas
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.treasury.id/syarat-dan-ketentuan-treasury-x-gopay
+    checked_at: '2026-10-21'
+    status: provider_terms_checked
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: provider_terms_checked
+- entity_id: bcasyariah
+  legal_name: PT Bank BCA Syariah
+  brand_id: bcasyariah
+  brand_name: BCA Syariah
+  product_id: bcasyariah-emas-ib
+  product_name: Emas iB
+  segment: financing
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - financing
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - www.bcasyariah.co.id
+  verified_social_accounts: []
+  aliases:
+  - bca syariah
+  - emas ib
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.bcasyariah.co.id/emas-ib
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: muamalat
+  legal_name: PT Bank Muamalat Indonesia Tbk
+  brand_id: muamalat
+  brand_name: Bank Muamalat
+  product_id: muamalat-emas-hijrah
+  product_name: Solusi Emas Hijrah
+  segment: financing
+  priority: 2
+  active_status: verified_active
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri:
+  - financing
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains:
+  - www.bankmuamalat.co.id
+  verified_social_accounts: []
+  aliases:
+  - muamalat
+  - solusi emas hijrah
+  gold_product_keywords:
+  - emas
+  - gold
+  - bulion
+  - brankas
+  - buyback
+  exclusion_keywords:
+  - ubs bank
+  - swiss bank
+  - antam pertanian
+  - treasury banking
+  - mandiri tunas finance
+  - mtr tujuan emas
+  verification_sources:
+  - url: https://www.bankmuamalat.co.id/index.php/pembiayaan-consumer/solusi-emas-hijrah
+    checked_at: '2026-10-21'
+    status: page_checked_legal_name_pending
+    claim_scope: product page activity only; not independent regulatory verification
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: mandiri
+  legal_name: PT Bank Mandiri (Persero) Tbk
+  brand_id: mandiri
+  brand_name: Mandiri
+  product_id: mandiri-ksm-emas
+  product_name: KSM Emas
+  segment: financing
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: *id001
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: *id002
+  verified_social_accounts: *id003
+  aliases: *id004
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: *id007
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: mandiri
+  legal_name: PT Bank Mandiri (Persero) Tbk
+  brand_id: mandiri
+  brand_name: Mandiri
+  product_id: mandiri-titip-emas
+  product_name: Titip Emas
+  segment: custody
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: *id001
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: *id002
+  verified_social_accounts: *id003
+  aliases: *id004
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: *id007
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: mandiri
+  legal_name: PT Bank Mandiri (Persero) Tbk
+  brand_id: mandiri
+  brand_name: Mandiri
+  product_id: mandiri-ambil-emas
+  product_name: Ambil Emas
+  segment: physical_withdrawal
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: *id001
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: *id002
+  verified_social_accounts: *id003
+  aliases: *id004
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: *id007
+  regulatory_status: self_reported
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: pegadaian
+  legal_name: PT Pegadaian
+  brand_id: pegadaian
+  brand_name: Pegadaian
+  product_id: pegadaian-cicil-emas
+  product_name: Cicil Emas Pegadaian
+  segment: financing
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: *id008
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: *id009
+  verified_social_accounts: *id010
+  aliases: *id011
+  gold_product_keywords: *id012
+  exclusion_keywords: *id013
+  verification_sources: *id014
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: page_checked_legal_name_pending
+- entity_id: bsi
+  legal_name: PT Bank Syariah Indonesia (Persero) Tbk
+  brand_id: bsi
+  brand_name: BSI
+  product_id: bsi-cicil-emas
+  product_name: BSI Cicil Emas
+  segment: financing
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: *id015
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: *id016
+  verified_social_accounts: *id017
+  aliases: *id018
+  gold_product_keywords: *id019
+  exclusion_keywords: *id020
+  verification_sources: *id021
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: primary_report_name_checked
+- entity_id: antam
+  legal_name: PT Aneka Tambang Tbk
+  brand_id: antam
+  brand_name: ANTAM Logam Mulia
+  product_id: antam-fisik
+  product_name: ANTAM Emas Fisik
+  segment: physical
+  priority: 1
+  active_status: pending_verification
+  activity_checked_at: '2026-10-21'
+  relationship_to_mandiri: *id022
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: *id023
+  verified_social_accounts: *id024
+  aliases: *id025
+  gold_product_keywords: *id026
+  exclusion_keywords: *id027
+  verification_sources: *id028
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: permission_blocked_403
+- entity_id: shopee
+  legal_name: null
+  brand_id: shopee
+  brand_name: Shopee
+  product_id: shopee-toko-fisik
+  product_name: toko-fisik
+  segment: distribution
+  priority: 3
+  active_status: pending_verification
+  activity_checked_at: null
+  relationship_to_mandiri:
+  - distribution_candidate
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: []
+  verified_social_accounts: *id003
+  aliases:
+  - shopee
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: []
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: unverified_seed
+- entity_id: tokopedia
+  legal_name: null
+  brand_id: tokopedia
+  brand_name: Tokopedia
+  product_id: tokopedia-toko-fisik
+  product_name: toko-fisik
+  segment: distribution
+  priority: 3
+  active_status: pending_verification
+  activity_checked_at: null
+  relationship_to_mandiri:
+  - distribution_candidate
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: []
+  verified_social_accounts: *id003
+  aliases:
+  - tokopedia
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: []
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: unverified_seed
+- entity_id: blibli
+  legal_name: null
+  brand_id: blibli
+  brand_name: Blibli
+  product_id: blibli-toko-fisik
+  product_name: toko-fisik
+  segment: distribution
+  priority: 3
+  active_status: pending_verification
+  activity_checked_at: null
+  relationship_to_mandiri:
+  - distribution_candidate
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: []
+  verified_social_accounts: *id003
+  aliases:
+  - blibli
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: []
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: unverified_seed
+- entity_id: tokopedia
+  legal_name: null
+  brand_id: tokopedia
+  brand_name: Tokopedia
+  product_id: tokopedia-emas-digital
+  product_name: emas-digital
+  segment: distribution
+  priority: 3
+  active_status: pending_verification
+  activity_checked_at: null
+  relationship_to_mandiri:
+  - distribution_candidate
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: []
+  verified_social_accounts: *id003
+  aliases:
+  - tokopedia
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: []
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: unverified_seed
+- entity_id: bukalapak
+  legal_name: null
+  brand_id: bukalapak
+  brand_name: Bukalapak
+  product_id: bukalapak-bukaemas
+  product_name: bukaemas
+  segment: distribution
+  priority: 3
+  active_status: pending_verification
+  activity_checked_at: null
+  relationship_to_mandiri:
+  - distribution_candidate
+  parent_group_id: null
+  provider_entity_id: null
+  official_domains: []
+  verified_social_accounts: *id003
+  aliases:
+  - bukalapak
+  gold_product_keywords: *id005
+  exclusion_keywords: *id006
+  verification_sources: []
+  regulatory_status: pending_verification
+  regulatory_checked_at: null
+  verification_status: unverified_seed
+relationships:
+- from_entity_id: antam
+  to_entity_id: mandiri
+  relationship: supplier_partner
+  source_url: https://www.bankmandiri.co.id/en/web/guest/news-detail?backUrl=/en/news&primaryKey=615042480
+  valid_from: null
+  valid_to: null
+  checked_at: '2026-10-21'
+  verification_status: self_reported
+  note: Release date is not effective/launch date
+- from_entity_id: hartadinata
+  to_entity_id: mandiri
+  relationship: supplier_partner
+  source_url: https://www.bankmandiri.co.id/en/web/guest/news-detail?backUrl=/en/news&primaryKey=615042480
+  valid_from: null
+  valid_to: null
+  checked_at: '2026-10-21'
+  verification_status: self_reported
+  note: Effective date unverified
+- from_entity_id: gopay
+  to_entity_id: treasury
+  relationship: distribution_provider
+  source_url: https://www.treasury.id/syarat-dan-ketentuan-treasury-x-gopay
+  valid_from: null
+  valid_to: null
+  checked_at: '2026-10-21'
+  verification_status: self_reported
+  note: No independent trader count for channel
+- from_entity_id: galeri24
+  to_entity_id: pegadaian
+  relationship: group_candidate
+  source_url: https://galeri24.co.id/
+  valid_from: null
+  valid_to: null
+  checked_at: '2026-10-21'
+  verification_status: pending_verification
+  note: Confirm legal name and ownership

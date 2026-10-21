@@ -1,0 +1,180 @@
+sources:
+- platform: web
+  docs_url: https://docs.crawl4ai.com/core/simple-crawling/
+  docs_checked_at: '2026-10-21'
+  docs_status: checked
+  api_version: HTTP + Crawl4AI 0.9.5 offline extraction
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: No social metrics; product page publication may be unknown
+  implementation: web_implemented
+  live_verification: 'passed 2026-10-21: run-33b559e75589491e, robots 200 + product
+    page 200, 2 requests'
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: youtube
+  docs_url: https://developers.google.com/youtube/data/reference/rest/v3/videos
+  docs_checked_at: '2026-10-21'
+  docs_status: checked
+  api_version: Data API v3
+  scopes: API key, public data only
+  metrics:
+  - likes
+  - comments
+  - video_views
+  quota: project quota; bounded local request budget
+  historical_window: uploads available from API; no historical snapshots reconstructed
+  region: public source availability; Indonesia contextual relevance
+  limitations: Uploads pagination; no public reach/shares/watch time/dislikes; video
+    format unknown unless verified
+  implementation: api_implemented_credential_required
+  live_verification: 'passed 2026-10-21: i18nRegions.list only, 1 request, no competitor
+    collection; data/health/api-check.json'
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  derived_metrics_status: permission_required; API metrics raw display only by default
+  terms_url: https://developers.google.com/youtube/terms/developer-policies
+  terms_checked_at: '2026-10-21'
+  retention_policy: Non-authorized API statistics <=30 days; delete expired data/exports.
+    No retention extension inferred.
+  endpoint_docs:
+  - https://developers.google.com/youtube/data/reference/rest/v3/channels/list
+  - https://developers.google.com/youtube/data/reference/rest/v3/playlistItems/list
+  - https://developers.google.com/youtube/data/reference/rest/v3/videos/list
+  - https://developers.google.com/youtube/data/reference/rest/v3/commentThreads/list
+  cost_policy: free_only_permanently_locked
+- platform: instagram
+  docs_url: https://developers.facebook.com/docs/instagram-platform/
+  docs_checked_at: '2026-10-21'
+  docs_status: docs_unverified
+  api_version: unknown
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: 429 reading docs; Business Discovery path/version/scopes not verified
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: tiktok
+  docs_url: https://developers.tiktok.com/docs/en/research-api-faq
+  docs_checked_at: '2026-10-21'
+  docs_status: checked
+  api_version: Research API ineligible for commercial use
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: Display API creator authorization unverified; import only
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: threads
+  docs_url: https://developers.facebook.com/docs/threads/
+  docs_checked_at: '2026-10-21'
+  docs_status: docs_unverified
+  api_version: unknown
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: 429 reading docs; discovery scopes and fields unverified
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: facebook
+  docs_url: https://developers.facebook.com/docs/pages-api/
+  docs_checked_at: '2026-10-21'
+  docs_status: docs_unverified
+  api_version: unknown
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: 429 reading docs; Page access eligibility unverified
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: linkedin
+  docs_url: https://learn.microsoft.com/en-us/linkedin/marketing/community-management/community-management-overview
+  docs_checked_at: '2026-10-21'
+  docs_status: checked
+  api_version: 2026-10 documentation; API endpoint not implemented
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: Vetted access; organization permission does not imply competitor insights
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: rss
+  docs_url: https://www.rssboard.org/rss-specification
+  docs_checked_at: '2026-10-21'
+  docs_status: docs_unverified
+  api_version: RSS 2.0 / Atom import
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: Feed network requires explicit terms assessment; no feed allowlisted
+    initially
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked
+- platform: news
+  docs_url: https://www.rssboard.org/rss-specification
+  docs_checked_at: '2026-10-21'
+  docs_status: docs_unverified
+  api_version: licensed import
+  scopes: unverified / import provenance required
+  metrics: []
+  quota: unknown
+  historical_window: unknown
+  region: public source availability; Indonesia contextual relevance
+  limitations: Observed articles only; no search snippet facts
+  implementation: import_only
+  live_verification: not_run
+  import_fallback: true
+  retention_days: 30
+  raw_evidence_policy: metadata_hash_only
+  cost: no_paid_requests; API quota tracked
+  cost_policy: free_only_permanently_locked

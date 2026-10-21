@@ -1,0 +1,44 @@
+[project]
+name = "mega-crawler"
+version = "0.1.0"
+description = "Auditable Indonesia gold competitor intelligence"
+readme = "README.md"
+authors = [
+    { name = "Nama Kamu", email = "sadamalrasyid1@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crawl4ai>=0.9.5",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.16.1",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+mega-crawler = "mega_crawler:main"
+goldintel = "mega_crawler.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.17.1",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-p no:cacheprovider"

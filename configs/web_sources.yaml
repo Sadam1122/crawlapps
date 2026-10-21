@@ -1,0 +1,10 @@
+sources:
+- url: https://www.bankmandiri.co.id/livin/emas
+  product_id: mandiri-tabungan-emas
+  terms_status: permitted
+  terms_url: https://www.bankmandiri.co.id/web/guest/kebijakan-privasi
+  assessment: '2026-10-21: public product HTML and linked privacy policy inspected;
+    no automated-access restriction found for this URL. robots 200 allows non-PDF.
+    Limited collection of this URL with metadata/hash, no media, no login; not blanket
+    site authorization. Reassess on policy change.'
+  raw_retention_allowed: false
